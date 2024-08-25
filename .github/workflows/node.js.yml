@@ -11,7 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: eamonnk418/github-app-token@v1
+      - uses: eamonnk418/github-app-token/.github/workflows/github-app-token.yml@v1
       - uses: actions/checkout@v4
       - name: Install pnpm
         uses: pnpm/action-setup@v4
